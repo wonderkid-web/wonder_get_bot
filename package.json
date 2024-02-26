@@ -1,0 +1,22 @@
+{
+  "types": "",
+  "scripts": {
+    "start": "bun --watch index.ts"
+  },
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.64.2",
+    "node-telegram-bot-api": "^0.64.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "bun-types": "latest"
+  },
+  "name": "wonder_get_bot",
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
